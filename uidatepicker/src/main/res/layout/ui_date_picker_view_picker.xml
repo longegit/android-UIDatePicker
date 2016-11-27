@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ui_date_picker_action_sheet_base"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/ui_date_picker_view_picker_left_button"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/ui_date_picker_blue_button"
+        android:text="@string/ui_date_picker_cancel"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/ui_date_picker_view_picker_right_button"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ui_date_picker_blue_button"
+        android:text="@string/ui_date_picker_done"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/ui_date_picker_view_picker_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ui_date_picker_view_picker_left_button"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp" />
+
+</RelativeLayout>

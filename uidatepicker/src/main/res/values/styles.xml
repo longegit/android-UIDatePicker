@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="UIDatePickerAnimStyle">
+        <item name="@android:windowEnterAnimation">@anim/ui_date_picker_anim_translate_in_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/ui_date_picker_anim_translate_out_from_top</item>
+    </style>
+</resources>

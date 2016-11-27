@@ -1,0 +1,7 @@
+<resources>
+    <string name="ui_date_picker_cancel">取消</string>
+    <string name="ui_date_picker_done">确定</string>
+    <string name="ui_date_picker_year">年</string>
+    <string name="ui_date_picker_month">月</string>
+    <string name="ui_date_picker_day">日</string>
+</resources>
