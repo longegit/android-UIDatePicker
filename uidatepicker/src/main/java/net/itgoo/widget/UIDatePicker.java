@@ -1,4 +1,4 @@
-package net.itgoo.uidatepicker;
+package net.itgoo.widget;
 
 import android.content.Context;
 import android.graphics.Color;

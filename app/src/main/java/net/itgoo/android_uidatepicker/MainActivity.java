@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import net.itgoo.uidatepicker.UIDatePicker;
+import net.itgoo.widget.UIDatePicker;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
